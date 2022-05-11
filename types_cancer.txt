@@ -1,0 +1,21 @@
+Adrenal
+Biliary
+Bone
+Brain
+Breast
+Cervix
+Endometrium
+Eye
+Kidney
+Large Intestine		
+Liver	
+Lung
+Oesophagus
+Ovary
+Pancreas
+Prostate
+Skin
+Stomach
+Testis
+Thyroid
+Urinary
