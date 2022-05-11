@@ -7,7 +7,7 @@ Cervix
 Endometrium
 Eye
 Kidney
-Large Intestine		
+LargeIntestine		
 Liver	
 Lung
 Oesophagus
