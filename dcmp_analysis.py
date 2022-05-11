@@ -5,6 +5,10 @@ filepath = "./sig-cancers/"
 
 
 def count_domains():
+    """
+    This function counts the protein domains from cancer mutant domain data
+    and prints the top 10 most common protein domains.
+    """
     domains_dict = {}
 
     for cancer in cancer_types:
