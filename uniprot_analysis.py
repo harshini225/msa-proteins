@@ -1,6 +1,6 @@
 from Bio import SeqIO
 
-uniprot_data = "raw-prot-data/uniprot.fasta"
+uniprot_data = "./sequences/uniprot-yourlist_M202205125BF3C56A578D7D6DFD1FC81EE5DA77304D3F0CE.fasta"
 proteins = ["p53", "smu1", "rb", "nebulin", "pi3k"]
 
 def analyze_uniprot(): 
@@ -18,7 +18,7 @@ def analyze_uniprot():
     # iterates through sequences to populate dictionary 
     for fasta in fasta_sequences:
         sequence, description = str(fasta.seq), fasta.description.lower()
-        species = "".join(x + " " for x in description.split("=")[1].split()[0:2]).strip()
+        species = "".join(x + "_" for x in description.split("=")[1].split()[0:2]).strip()
 
         if "p53" in description: 
             uniprot_dict["p53"].add((species, sequence))
@@ -34,9 +34,16 @@ def analyze_uniprot():
     return uniprot_dict
 
 
-def write_seq_to_file(): 
-    output_file = ""
+def write_seq_to_file(seq_dict): 
+    output_folder = "sequences/"
+    for key, set_of_seqs in seq_dict.items(): 
+        fh = open(output_folder + key + ".fasta", "w")
+        for species, sequence in set_of_seqs:
+            fh.write(">" + species + "\n")
+            fh.write(sequence + "\n")
+        fh.close()
 
 
 if __name__ == "__main__":
-    analyze_uniprot()
+    my_dict = analyze_uniprot()
+    write_seq_to_file(my_dict)
