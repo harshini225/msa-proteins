@@ -12,7 +12,7 @@ comments within each file when necessary.
 This program analyses the DCMP files (Database for Cancer Mutant Proteins) to find the 
 most common cancer mutant protein domains across various types of cancers. 
 
-### uniprot-analysis.py
+### process_uniprot.py
 
 This program analyses the Uniprot sequences and groups them by protein domain to prepare
 for Multiple Sequence Alignment. 
