@@ -1,0 +1,11 @@
+#
+#
+#  Percent Identity  Matrix - created by Clustal2.1 
+#
+#
+
+     1: fukomys_damarensis     100.00   96.67   83.33   85.09   85.09
+     2: heterocephalus_glaber   96.67  100.00   83.63   86.15   86.15
+     3: homo_sapiens            83.33   83.63  100.00   85.38   85.38
+     4: nannospalax_galili      85.09   86.15   85.38  100.00  100.00
+     5: spalax_judaei           85.09   86.15   85.38  100.00  100.00

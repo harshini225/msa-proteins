@@ -1,0 +1,10 @@
+#
+#
+#  Percent Identity  Matrix - created by Clustal2.1 
+#
+#
+
+     1: drosophila_melanogaster  100.00   20.94   22.39   20.73
+     2: danio_rerio               20.94  100.00   52.56   51.54
+     3: mus_musculus              22.39   52.56  100.00   77.78
+     4: homo_sapiens              20.73   51.54   77.78  100.00
