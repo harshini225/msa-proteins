@@ -1,0 +1,10 @@
+#
+#
+#  Percent Identity  Matrix - created by Clustal2.1 
+#
+#
+
+     1: delphinapterus_leucas  100.00   85.90   89.43   87.08
+     2: loxodonta_africana      85.90  100.00   90.39   91.91
+     3: balaenoptera_musculus   89.43   90.39  100.00   92.16
+     4: homo_sapiens            87.08   91.91   92.16  100.00

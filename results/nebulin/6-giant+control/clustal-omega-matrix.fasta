@@ -1,0 +1,12 @@
+#
+#
+#  Percent Identity  Matrix - created by Clustal2.1 
+#
+#
+
+     1: danio_rerio            100.00   58.67   60.18   58.92   59.67   59.24
+     2: delphinapterus_leucas   58.67  100.00   88.28   93.02   90.11   88.79
+     3: mus_musculus            60.18   88.28  100.00   91.37   93.94   91.34
+     4: balaenoptera_musculus   58.92   93.02   91.37  100.00   92.14   90.41
+     5: homo_sapiens            59.67   90.11   93.94   92.14  100.00   91.84
+     6: loxodonta_africana      59.24   88.79   91.34   90.41   91.84  100.00

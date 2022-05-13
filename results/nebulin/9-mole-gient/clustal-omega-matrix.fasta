@@ -1,0 +1,11 @@
+#
+#
+#  Percent Identity  Matrix - created by Clustal2.1 
+#
+#
+
+     1: fukomys_damarensis     100.00   84.83   90.54   96.81   90.32
+     2: delphinapterus_leucas   84.83  100.00   86.47   87.32   90.62
+     3: loxodonta_africana      90.54   86.47  100.00   91.83   90.42
+     4: heterocephalus_glaber   96.81   87.32   91.83  100.00   91.73
+     5: balaenoptera_musculus   90.32   90.62   90.42   91.73  100.00

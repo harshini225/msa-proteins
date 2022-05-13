@@ -1,0 +1,11 @@
+#
+#
+#  Percent Identity  Matrix - created by Clustal2.1 
+#
+#
+
+     1: danio_rerio            100.00   59.63   60.05   57.75   59.76
+     2: homo_sapiens            59.63  100.00   93.98   93.21   94.35
+     3: mus_musculus            60.05   93.98  100.00   93.28   94.53
+     4: fukomys_damarensis      57.75   93.21   93.28  100.00   97.04
+     5: heterocephalus_glaber   59.76   94.35   94.53   97.04  100.00
