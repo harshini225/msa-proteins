@@ -1,0 +1,351 @@
+p53 1-control clustal-omega
+danio_rerio 36.75
+drosophila_melanogaster 21.665
+homo_sapiens 36.135
+mus_musculus 37.475
+
+p53 1-control muscle
+danio_rerio 35.525
+drosophila_melanogaster 19.71
+homo_sapiens 36.010000000000005
+mus_musculus 36.144999999999996
+
+p53 1-control t-coffee
+danio_rerio 36.07
+drosophila_melanogaster 21.71
+homo_sapiens 38.45
+mus_musculus 38.445
+
+p53 2-giant clustal-omega
+balaenoptera_musculus 80.8
+balaenoptera_physalus 46.13666666666666
+delphinapterus_leucas 80.62666666666668
+loxodonta_africana 68.66000000000001
+physeter_macrocephalus 80.91666666666667
+
+p53 2-giant muscle
+balaenoptera_musculus 75.43
+balaenoptera_physalus 45.803333333333335
+delphinapterus_leucas 75.25666666666667
+loxodonta_africana 69.55333333333333
+physeter_macrocephalus 75.54666666666667
+
+p53 2-giant t-coffee
+balaenoptera_musculus 75.26666666666667
+balaenoptera_physalus 45.81999999999999
+delphinapterus_leucas 75.26666666666667
+loxodonta_africana 69.66666666666667
+physeter_macrocephalus 80.92333333333333
+
+p53 4-giant+human clustal-omega
+balaenoptera_musculus 77.855
+balaenoptera_physalus 45.722500000000004
+delphinapterus_leucas 77.6575
+homo_sapiens 74.53750000000001
+loxodonta_africana 71.21
+physeter_macrocephalus 77.875
+
+p53 4-giant+human muscle
+balaenoptera_musculus 78.19
+balaenoptera_physalus 45.400000000000006
+delphinapterus_leucas 78.125
+homo_sapiens 75.045
+loxodonta_africana 72.2825
+physeter_macrocephalus 78.3425
+
+p53 4-giant+human t-coffee
+balaenoptera_musculus 78.2125
+balaenoptera_physalus 45.6575
+delphinapterus_leucas 78.2775
+homo_sapiens 75.13
+loxodonta_africana 72.4975
+physeter_macrocephalus 82.52000000000001
+
+p53 5-molerat+human clustal-omega
+fukomys_damarensis 84.66
+heterocephalus_glaber 85.38333333333333
+homo_sapiens 85.02666666666666
+nannospalax_galili 90.24333333333334
+spalax_judaei 90.24333333333334
+
+p53 5-molerat+human muscle
+fukomys_damarensis 84.74666666666667
+heterocephalus_glaber 85.46666666666665
+homo_sapiens 85.11333333333333
+nannospalax_galili 90.24333333333334
+spalax_judaei 90.24333333333334
+
+p53 5-molerat+human t-coffee
+fukomys_damarensis 88.36333333333334
+heterocephalus_glaber 88.81666666666668
+homo_sapiens 84.11333333333333
+nannospalax_galili 85.54
+spalax_judaei 85.54
+
+p53 6-giant+control clustal-omega
+balaenoptera_musculus 65.5657142857143
+balaenoptera_physalus 40.85285714285715
+danio_rerio 46.54571428571428
+delphinapterus_leucas 65.56428571428572
+drosophila_melanogaster 20.24285714285714
+homo_sapiens 63.52
+loxodonta_africana 61.34142857142857
+mus_musculus 60.56285714285714
+physeter_macrocephalus 65.6542857142857
+
+p53 6-giant+control muscle
+balaenoptera_musculus 66.39285714285714
+balaenoptera_physalus 41.56
+danio_rerio 47.160000000000004
+delphinapterus_leucas 66.42857142857143
+drosophila_melanogaster 20.262857142857143
+homo_sapiens 64.35714285714286
+loxodonta_africana 62.671428571428564
+mus_musculus 60.970000000000006
+physeter_macrocephalus 66.47428571428573
+
+p53 6-giant+control t-coffee
+balaenoptera_musculus 66.83571428571429
+balaenoptera_physalus 41.93142857142857
+danio_rerio 47.93285714285714
+delphinapterus_leucas 66.94285714285715
+drosophila_melanogaster 23.759999999999998
+homo_sapiens 64.99285714285715
+loxodonta_africana 62.72000000000001
+mus_musculus 61.35285714285715
+physeter_macrocephalus 69.80285714285715
+
+p53 7-molerat+control clustal-omega
+danio_rerio 45.955000000000005
+drosophila_melanogaster 21.59
+fukomys_damarensis 67.38666666666667
+heterocephalus_glaber 67.82833333333333
+homo_sapiens 67.40333333333332
+mus_musculus 65.315
+nannospalax_galili 70.94
+spalax_judaei 70.94
+
+p53 7-molerat+control muscle
+danio_rerio 46.98
+drosophila_melanogaster 19.44
+fukomys_damarensis 67.52833333333335
+heterocephalus_glaber 68.11
+homo_sapiens 67.275
+mus_musculus 65.29333333333334
+nannospalax_galili 70.69666666666667
+spalax_judaei 70.69666666666667
+
+p53 7-molerat+control t-coffee
+danio_rerio 48.36833333333334
+drosophila_melanogaster 24.035
+fukomys_damarensis 70.48833333333333
+heterocephalus_glaber 70.84166666666668
+homo_sapiens 67.80833333333334
+mus_musculus 65.34500000000001
+nannospalax_galili 69.49666666666667
+spalax_judaei 69.49666666666667
+
+p53 8-mole+giant clustal-omega
+balaenoptera_musculus 82.64142857142858
+balaenoptera_physalus 45.251428571428576
+delphinapterus_leucas 82.64142857142858
+fukomys_damarensis 78.55142857142857
+heterocephalus_glaber 79.07285714285715
+loxodonta_africana 74.77142857142859
+nannospalax_galili 80.85857142857142
+physeter_macrocephalus 82.80285714285715
+spalax_judaei 80.85857142857142
+
+p53 8-mole+giant muscle
+balaenoptera_musculus 82.92714285714285
+balaenoptera_physalus 45.28000000000001
+delphinapterus_leucas 82.92714285714285
+fukomys_damarensis 78.71714285714286
+heterocephalus_glaber 79.24
+loxodonta_africana 75.73857142857142
+nannospalax_galili 81.29142857142858
+physeter_macrocephalus 83.08714285714287
+spalax_judaei 81.29142857142858
+
+p53 8-mole+giant t-coffee
+balaenoptera_musculus 83.01571428571428
+balaenoptera_physalus 45.228571428571435
+delphinapterus_leucas 83.01571428571427
+fukomys_damarensis 80.34285714285714
+heterocephalus_glaber 80.6557142857143
+loxodonta_africana 75.42
+nannospalax_galili 79.38428571428571
+physeter_macrocephalus 83.0657142857143
+spalax_judaei 79.38428571428571
+
+p53 9-all clustal-omega
+balaenoptera_musculus 73.596
+balaenoptera_physalus 41.408
+danio_rerio 49.427
+delphinapterus_leucas 73.73300000000002
+drosophila_melanogaster 21.255
+heterocephalus_glaber 71.025
+homo_sapiens 70.716
+loxodonta_africana 70.62800000000001
+mus_musculus 67.30600000000001
+nannospalax_galili 72.743
+physeter_macrocephalus 73.79100000000001
+spalax_judaei 72.743
+
+p53 9-all muscle
+balaenoptera 14.835454545454542
+balaenoptera_musculus 59.25454545454546
+balaenoptera_physalus 34.191818181818185
+delphinapterus_leucas 59.08636363636364
+drosophila 15.68909090909091
+fukomys_damarensis 56.40545454545454
+heterocephalus_glaber 56.877272727272725
+homo 23.597272727272728
+loxodonta_africana 53.92
+mus 23.574545454545447
+nannospalax_galili 57.87727272727273
+physeter_macrocephalus 59.289090909090916
+spalax_judaei 57.87727272727273
+
+p53 9-all t-coffee
+balaenoptera_musculus 74.37300000000002
+balaenoptera_physalus 42.571
+danio_rerio 49.946999999999996
+delphinapterus_leucas 74.447
+drosophila_melanogaster 24.645000000000003
+heterocephalus_glaber 72.565
+homo_sapiens 71.33399999999999
+loxodonta_africana 72.24000000000001
+mus_musculus 67.035
+nannospalax_galili 72.071
+physeter_macrocephalus 74.458
+spalax_judaei 72.071
+
+nebulin 1-control clustal-omega
+danio_rerio 59.84
+homo_sapiens 59.4
+mus_musculus 59.84
+
+nebulin 1-control muscle
+danio_rerio 60.19
+homo_sapiens 59.65
+mus_musculus 60.19
+
+nebulin 1-control t-coffee
+danio_rerio 59.69
+homo_sapiens 59.69
+mus_musculus 59.96
+
+nebulin 2-giant clustal-omega
+balaenoptera_musculus 90.48
+delphinapterus_leucas 86.47
+loxodonta_africana 86.47
+
+nebulin 2-giant muscle
+balaenoptera_musculus 89.43
+delphinapterus_leucas 85.97
+loxodonta_africana 85.97
+
+nebulin 2-giant t-coffee
+balaenoptera_musculus 89.41
+delphinapterus_leucas 89.41
+loxodonta_africana 90.0
+
+nebulin 4-giant+human clustal-omega
+balaenoptera_musculus 91.375
+delphinapterus_leucas 89.405
+homo_sapiens 90.17
+loxodonta_africana 88.345
+
+nebulin 4-giant+human muscle
+balaenoptera_musculus 89.91
+delphinapterus_leucas 87.665
+homo_sapiens 89.495
+loxodonta_africana 88.14500000000001
+
+nebulin 4-giant+human t-coffee
+
+nebulin 5-molerat+human clustal-omega
+fukomys_damarensis 96.88
+heterocephalus_glaber 96.88
+homo_sapiens 93.13
+
+nebulin 5-molerat+human muscle
+fukomys_damarensis 93.21
+heterocephalus_glaber 94.35
+homo_sapiens 93.21
+
+nebulin 5-molerat+human t-coffee
+
+nebulin 6-giant+control clustal-omega
+balaenoptera_musculus 83.8625
+danio_rerio 59.36
+delphinapterus_leucas 82.52
+homo_sapiens 83.965
+loxodonta_africana 82.445
+mus_musculus 83.4425
+
+nebulin 6-giant+control muscle
+balaenoptera_musculus 82.495
+danio_rerio 59.1675
+delphinapterus_leucas 80.12
+homo_sapiens 82.6675
+loxodonta_africana 81.5975
+mus_musculus 82.36
+
+nebulin 6-giant+control t-coffee
+
+nebulin 7-molerat+control clustal-omega
+danio_rerio 58.833333333333336
+fukomys_damarensis 82.58666666666666
+heterocephalus_glaber 83.58999999999999
+homo_sapiens 82.23
+mus_musculus 82.40666666666667
+
+nebulin 7-molerat+control muscle
+danio_rerio 59.14333333333334
+fukomys_damarensis 81.41333333333333
+heterocephalus_glaber 82.88
+homo_sapiens 82.27333333333333
+mus_musculus 82.43666666666667
+
+nebulin 7-molerat+control t-coffee
+
+nebulin 8-mole+giant clustal-omega
+balaenoptera_musculus 90.45333333333333
+delphinapterus_leucas 86.20666666666666
+fukomys_damarensis 90.72666666666667
+heterocephalus_glaber 91.98666666666666
+loxodonta_africana 89.61333333333333
+
+nebulin 8-mole+giant muscle
+balaenoptera_musculus 90.12333333333333
+delphinapterus_leucas 86.49000000000001
+fukomys_damarensis 88.40000000000002
+heterocephalus_glaber 89.83
+loxodonta_africana 89.02666666666669
+
+nebulin 8-mole+giant t-coffee
+
+nebulin 9-all clustal-omega
+balaenoptera_musculus 85.64333333333333
+danio_rerio 58.833333333333336
+delphinapterus_leucas 82.57833333333333
+fukomys_damarensis 85.59166666666665
+heterocephalus_glaber 86.93833333333333
+homo_sapiens 86.50333333333333
+loxodonta_africana 85.00166666666667
+mus_musculus 86.22833333333331
+
+nebulin 9-all muscle
+balaenoptera_musculus 85.42
+danio_rerio 58.935
+delphinapterus_leucas 81.91
+fukomys_damarensis 84.865
+heterocephalus_glaber 86.35166666666667
+homo_sapiens 86.31
+loxodonta_africana 84.78333333333333
+mus_musculus 86.09333333333335
+
+nebulin 9-all t-coffee
+
