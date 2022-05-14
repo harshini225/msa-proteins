@@ -37,6 +37,24 @@ delphinapterus_leucas 75.26666666666667
 loxodonta_africana 69.66666666666667
 physeter_macrocephalus 80.92333333333333
 
+p53 3-molerat clustal-omega
+fukomys_damarensis 85.09
+heterocephalus_glaber 86.15
+nannospalax_galili 92.545
+spalax_judaei 92.545
+
+p53 3-molerat muscle
+fukomys_damarensis 85.09
+heterocephalus_glaber 86.15
+nannospalax_galili 92.545
+spalax_judaei 92.545
+
+p53 3-molerat t-coffee
+fukomys_damarensis 90.88
+heterocephalus_glaber 91.41
+nannospalax_galili 85.62
+spalax_judaei 85.62
+
 p53 4-giant+human clustal-omega
 balaenoptera_musculus 77.855
 balaenoptera_physalus 45.722500000000004
@@ -193,7 +211,6 @@ physeter_macrocephalus 73.79100000000001
 spalax_judaei 72.743
 
 p53 9-all muscle
-balaenoptera 14.835454545454542
 balaenoptera_musculus 59.25454545454546
 balaenoptera_physalus 34.191818181818185
 delphinapterus_leucas 59.08636363636364
@@ -250,6 +267,12 @@ nebulin 2-giant t-coffee
 balaenoptera_musculus 89.41
 delphinapterus_leucas 89.41
 loxodonta_africana 90.0
+
+nebulin 3-molerat clustal-omega
+
+nebulin 3-molerat muscle
+
+nebulin 3-molerat t-coffee
 
 nebulin 4-giant+human clustal-omega
 balaenoptera_musculus 91.375
