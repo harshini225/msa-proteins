@@ -211,6 +211,7 @@ physeter_macrocephalus 73.79100000000001
 spalax_judaei 72.743
 
 p53 9-all muscle
+balaenoptera 14.835454545454542
 balaenoptera_musculus 59.25454545454546
 balaenoptera_physalus 34.191818181818185
 delphinapterus_leucas 59.08636363636364
