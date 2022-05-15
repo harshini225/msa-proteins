@@ -62,7 +62,7 @@ def print_control_graph_nebulin():
     plt.show()
 
 
-def print_all_graph_p53():
+def print_any_graph(prefix, num_spec, sps, title, is_nebulin, stop_word):
     fh = open("results/summary.txt", "r")
     
     need_clustal = False
@@ -73,14 +73,20 @@ def print_all_graph_p53():
     tc = []
     for line in fh: 
         if line:
-            if line.startswith("nebulin"):
+            if is_nebulin and line.startswith("p53"):
                 break
-            if line.startswith("p53 9-all clustal-omega"): 
+            elif (not is_nebulin) and line.startswith("nebulin"):
+                break
+
+            if line.startswith(stop_word):
+                break
+
+            if line.startswith(prefix + " clustal-omega"): 
                 need_clustal = True
-            elif line.startswith("p53 9-all muscle"): 
+            elif line.startswith(prefix + " muscle"): 
                 need_clustal = False
                 need_muscle = True
-            elif line.startswith("p53 9-all t-coffee"): 
+            elif line.startswith(prefix + " t-coffee"): 
                 need_muscle = False
                 need_tc = True
             else: 
@@ -93,16 +99,10 @@ def print_all_graph_p53():
                     tc.append(float(line.split()[1]))
 
     fh.close()
-    print(clustal)
-    print(len(clustal))
-    print(muscle)
-    print(len(muscle))
-    print(tc)
-    print(len(tc))
+
     data = [clustal, muscle, tc]
     
-    X = np.arange(12)
-    sps = ["b. musculus", "b. physalus", "d. rerio", "d. leucas", "d. melanogaster","h. glaber", "h. sapiens", "l. africana", "m. musculus", "n. galili", "p. macrocephalus", "s. judaei"]
+    X = np.arange(num_spec)
     
     fig, ax = plt.subplots()
     ax.bar(X + 0.00, data[0], color = 'b', width = 0.25)
@@ -110,12 +110,66 @@ def print_all_graph_p53():
     ax.bar(X + 0.50, data[2], color = 'r', width = 0.25)
     ax.set_ylabel('Avg. percent identity')
     ax.set_xlabel('Species')
-    ax.set_title('Avg. percent identity amongst all species p53')
+    ax.set_title(title)
     ax.set_xticks(X + 0.25, sps)
     ax.set_yticks(np.arange(0, 100, 10))
     ax.legend(labels=['Clustal-Omega', 'MUSCLE', 'T-Coffee'])
     plt.show()
 
 
+
+def print_any_graph_nebulin(prefix, num_spec, sps, title, is_nebulin, stop_word):
+    fh = open("results/summary.txt", "r")
+    
+    need_clustal = False
+    need_muscle = False
+    clustal = []
+    muscle = []
+    for line in fh: 
+        if line:
+            if line.startswith(stop_word):
+                break
+
+            if line.startswith(prefix + " clustal-omega"): 
+                need_clustal = True
+            elif line.startswith(prefix + " muscle"): 
+                need_clustal = False
+                need_muscle = True
+            else: 
+                arr = line.split()
+                if need_clustal and len(arr) > 0:
+                    clustal.append(float(line.split()[1]))
+                elif need_muscle and len(arr) > 0: 
+                    muscle.append(float(line.split()[1]))
+
+    fh.close()
+
+    data = [clustal, muscle]
+    
+    print(data)
+
+    X = np.arange(num_spec)
+    
+    fig, ax = plt.subplots()
+    ax.bar(X + 0.00, data[0], color = 'b', width = 0.25)
+    ax.bar(X + 0.25, data[1], color = 'r', width = 0.25)
+    ax.set_ylabel('Avg. percent identity')
+    ax.set_xlabel('Species')
+    ax.set_title(title)
+    ax.set_xticks(X + 0.15, sps)
+    ax.set_yticks(np.arange(0, 100, 10))
+    ax.legend(labels=['Clustal-Omega', 'MUSCLE', 'T-Coffee'])
+    plt.show()
+
+
 if __name__ == "__main__":
-    print_all_graph_p53()
+    mlrat_human = ["f. damarensis", "h. glaber", "h. sapiens", "n. galili", "s. judaei"]
+    mlrat_human_nebulin = ["f. damarensis", "h. glaber", "h. sapiens"]
+
+    giant_human = ["b. musculus", "b. physalus", "d. leucas", "h. sapiens", "l. africana", "p. macrocephalus"]
+    giant_human_neb = ["b. musculus", "d. leucas", "h. sapiens", "l. africana"]
+    # print_any_graph("p53 5-molerat+human", 5, mlrat_human, 'Avg. percent identity amongst molerat+human p53', False, "p53 6-giant+control")
+    # print_any_graph("p53 4-giant+human", 6, giant_human, 'Avg. percent identity amongst giant animals+human p53', False, "p53 5-molerat+human")
+
+    # print_any_graph_nebulin("nebulin 5-molerat+human", 3, mlrat_human_nebulin, 'Avg. percent identity amongst molerat+human nebulin', True, "nebulin 5-molerat+human t-coffee")
+    # print_any_graph_nebulin("nebulin 4-giant+human", 4, giant_human_neb, 'Avg. percent identity amongst giant animals+human nebulin', True, "nebulin 4-giant+human t-coffee")
